@@ -73,3 +73,9 @@ body{
     color: #fff;
     text-decoration: none;
 }
+.logar{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    opacity: 0.8;
+}
