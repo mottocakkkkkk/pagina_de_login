@@ -1,7 +1,9 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url(https://external-preview.redd.it/-JbiJwhSenp0lkefQHx8yLP2jQXcZzgPMlc8PoK3og4.jpg?auto=webp&s=a630c8688a7b7d08ab4b462436b990a14cc87501);
+    background-repeat: no-repeat;
+    background-size: 1366px 668px;
+    background-image: url(https://images7.alphacoders.com/934/934644.jpg);
 }
 #login {
     display: flex;
