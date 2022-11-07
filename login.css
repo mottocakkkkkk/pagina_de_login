@@ -1,8 +1,11 @@
 body{
     padding: 0;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
     background-repeat: no-repeat;
-    background-size: 1366px 668px;
+    background-size: cover;
     background-image: url(https://images7.alphacoders.com/934/934644.jpg);
 }
 #login {
