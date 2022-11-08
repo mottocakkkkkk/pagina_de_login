@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akuma no Kogeki - Login</title>
     <link href="login.css" rel="stylesheet" type="text/css">
-    <link href="https://cdn-icons-png.flaticon.com/128/3548/3548351.png" rel="icon" type="text/css">
+    <link href="https://cdn.icon-icons.com/icons2/2079/PNG/512/samurai_warrior_sword_japan_japanese_katana_traditional_icon_127299.png" rel="icon" type="text/css">
 </head>
 <body>
     <div id="login">
@@ -25,19 +25,43 @@
                 </div>
             </div>
             <div class="card-footer">
-                <button  class="logar" id="logar">
+                <button class="logar" id="logar">
                     Entrar
                 </button>
-                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+                <a href="file:///media/fuse/drivefs-95fdf9f35de628a303337e6fe99986e9/root/My%20codes/001.html" class="recuperar_senha">
+                    Esqueceu a senha?
+                </a>
             </div>
         </form>
     </div>
+    <div id="trilha">
+        <audio id="mutar" autoplay="true" loop="true" class="player" controls="controls">
+            <source src="msc/musicasamurai.mp3" type="audio/mp3" />
+        </audio>
+    </div>
+    <button id="botaodesom" onclick="mutado()">
+        <img class="mutar" src="https://www.pngall.com/wp-content/uploads/8/Sound-Transparent.png" alt="Imagem não carregada">
+    </button>
+
     <script>
-         var logado = document.getElementById('logar')
+        const audio = document.getElementById('mutar')
+       var som = document.getElementsByClassName('mutar')[0]
+       var logado = document.getElementById('logar')
+        som.addEventListener('click',mutado)
         logado.addEventListener('click', clicar)
         function clicar() {
             window.open("PÁGINA DE LOADING");//redirecionamento para página de loading...
         }
+        function mutado(){
+            if (audio.playing) {
+                audio.pause()
+            } 
+            else {
+                audio.play()
+            }
+        }
+        
+
     </script>
 </body>
 </html>
