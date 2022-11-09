@@ -1,0 +1,59 @@
+#loading{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body{
+    margin-top: auto;
+    margin-left: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url(https://cdn.dribbble.com/users/5385073/screenshots/12780329/media/f09091b9c69f3de017f26b5ecf00e38f.gif);
+    background-size: 1366px 668px;
+}
+.card{
+    border: 15px solid transparent;
+    border-image: url(https://www.imagensempng.com.br/wp-content/uploads/2021/03/04-1.png) 150 round;
+    opacity: 1;
+    background-color: rgb(4, 29, 53);
+    padding: 1px;
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.card-content label{
+    font-size: 25px;
+    color: #fff;
+}
+.card-content-area-2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.card-content-area-2{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+#loading-text{
+    background: none;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(4, 29, 53);
+    transition: 0.2s;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#audio{
+    width: 140px;
+    background-color: transparent;
+    display: none;
+}
